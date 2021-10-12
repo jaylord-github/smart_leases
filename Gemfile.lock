@@ -88,6 +88,7 @@ GEM
     erubi (1.9.0)
     excon (0.73.0)
     execjs (2.7.0)
+    ffi (1.12.2)
     ffi (1.12.2-x64-mingw32)
     fog-aws (3.6.2)
       fog-core (~> 2.1)
@@ -133,15 +134,19 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_json (1.14.1)
+    mysql2 (0.5.3)
     mysql2 (0.5.3-x64-mingw32)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     nprogress-rails (0.2.0.2)
     orm_adapter (0.5.0)
+    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     public_suffix (4.0.4)
-    puma (4.3.3)
+    puma (4.3.9)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-test (1.1.0)
@@ -235,6 +240,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   appsignal
@@ -252,7 +258,7 @@ DEPENDENCIES
   mysql2
   nprogress-rails (~> 0.2.0.2)
   pg
-  puma (~> 4.3, >= 4.3.1)
+  puma (~> 4.3)
   rails (~> 5.2.4.1)
   rails_12factor
   redis (~> 4.0)
